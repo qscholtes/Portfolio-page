@@ -1,13 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes, Route } from "react-router-dom"; // Import Routes instead of BrowserRouter
+import HomePage from "./pages/HomePage";
+import UserPage from "./pages/UserPage";
+import ResumePage from "./pages/ResumePage";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-
-    </div>
-    
+<Routes>
+  <Route path="/" element={<HomePage />} />
+  <Route path="/about" element={<UserPage />} />
+  <Route path="/resume" element={<ResumePage />} />
+</Routes>
   );
 }
-
-export default App;
