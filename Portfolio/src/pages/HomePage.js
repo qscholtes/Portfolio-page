@@ -4,8 +4,11 @@ export default function HomePage() {
 return (
   <>
     <HeaderAnimated content="Welcome"></HeaderAnimated>
-    <p>I am an an aspiring web developer</p>
-    <p>Hello hello</p>
+    <p> Hello! I'm Quinten, a first-year Computer Science student with a passion for creating immersive web applications.
+     
+
+</p>
+    
     
   </>
 );
