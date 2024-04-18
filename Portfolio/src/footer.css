@@ -1,0 +1,13 @@
+footer{
+    min-height: 100px;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    display:flex;
+    gap:25px;
+    justify-content: center;
+    box-shadow: 0px -5px 5px -5px #D79922;
+}
+.svg-inline--fa{
+    cursor:pointer;
+}
