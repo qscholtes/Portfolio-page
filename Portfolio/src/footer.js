@@ -6,10 +6,10 @@ import './footer.css';
 function Footer() {
   return (
     <footer>
-      <FontAwesomeIcon icon={faGithub} style={{color: "#d79922",}} />
-      <FontAwesomeIcon icon={faLinkedin} style={{color: "#d79922",}} />
-      <FontAwesomeIcon icon={faEnvelope} style={{color: "#d79922",}} />
-      <FontAwesomeIcon icon={faInstagram} style={{color: "#d79922",}} />
+      <a href="https://github.com/qscholtes" target="_blank"> <FontAwesomeIcon icon={faGithub} style={{color: "#d79922",}} /></a>
+      <a href="https://www.linkedin.com/in/quinten-scholtes/" target="_blank"> <FontAwesomeIcon icon={faLinkedin} style={{color: "#d79922",}} /></a>
+      <a href="https://www.instagram.com/scholtesq/" target="_blank"> <FontAwesomeIcon icon={faInstagram} style={{color: "#d79922",}} />  </a>
+      <a href="mailto:quintenscholtes@hotmail.com">  <FontAwesomeIcon icon={faEnvelope} style={{color: "#d79922",}} /></a>
     </footer>
   );
 }

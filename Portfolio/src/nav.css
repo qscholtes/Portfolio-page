@@ -9,6 +9,7 @@
         padding: 50px 0;
         box-shadow: 0px 5px 5px #D79922;
         background-color: #EFE2BA ;
+        border-radius: 10px;
     }
     nav ul {
         list-style: none;
