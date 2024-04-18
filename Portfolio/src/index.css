@@ -24,13 +24,14 @@ small {
 
 h1 {
   text-align: center;
-  padding: 50px 0;
+  padding: 0px 0;
   font-weight: 800;
   margin: 0;
   letter-spacing: -1px;
   color: inherit;
   font-size: 40px;
   color:#D79922 !important; 
+  text-shadow: 1px 1px 2px black;
 }
 
 h2 {
@@ -47,7 +48,7 @@ h2 {
 }
 
 section {
-  height: 35vh;
+  height: 25vh;
 }
 #root{
   width: 80%;

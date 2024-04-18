@@ -9,6 +9,7 @@
     letter-spacing: -0.05em;
     will-change: transform, opacity;
     overflow: hidden;
+    text-shadow: 1px 1px 2px black;
   }
   
   .trailsText > div {
