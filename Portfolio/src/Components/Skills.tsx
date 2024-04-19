@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useTrail, a } from '@react-spring/web'
 
 import styles from './styles.module.css'
+import './styles.module.css'
 
 interface TrailProps {
   open: boolean;
@@ -13,7 +14,7 @@ const Trail: React.FC<TrailProps> = ({ open, children }) => {
   const trail = useTrail(items.length, {
     config: { mass: 20, tension: 2000, friction: 1000 },
     opacity: open ? 1 : 0,
-    x: open ? 0 : 100,
+    x: open ? 0 : 200,
     height: open ? 180 : 0,
     from: { opacity: 0, x: 20, height: 0 },
   })
@@ -31,7 +32,9 @@ const Trail: React.FC<TrailProps> = ({ open, children }) => {
 export default function Skills() {
   const [open, set] = useState(true)
   return (
+    <div className='skills-container' > 
     <div className={styles.container} onClick={() => set(state => !state)}>
+      <p> Strengths:</p>
       <Trail open={open}>
         <span>HTML</span>
         <span>CSS</span>
@@ -39,6 +42,7 @@ export default function Skills() {
         <span>Responsive Design</span>
         <span>React.js</span>
       </Trail>
+    </div>
     </div>
   )
 }
