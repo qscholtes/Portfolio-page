@@ -1,11 +1,13 @@
 import React from "react";
 import HeaderAnimated from "../Components/HeaderAnimated";
 import Skills from "../Components/Skills.tsx";
+import Portrait from "../Components/Portrait.js"
 export default function HomePage() {
 return (
   <>
     <HeaderAnimated content="Welcome"></HeaderAnimated>
-    <p> Hello! I'm Quinten, a first-year Computer Science student with a interest for creating immersive web applications.
+    <Portrait></Portrait>
+    <p> 
     </p>
     <p>Originally from the Netherlands and raised in Germany, where I attended an International school, I've had the privilege of growing up in a diverse environment. I am  fluent in English, German, and Dutch, I embrace cultural diversity as a strength. </p>
     <p> The skill-set that I have accumulated so far consists of :  </p>

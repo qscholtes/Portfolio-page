@@ -1,0 +1,45 @@
+.intro-container{
+    height: 25%;
+    display:flex;
+    background-color: #D79922 ;
+    border-radius: 120px 120px 0 0;
+    
+    
+
+}
+.img-portrait{
+width: 50%;
+display: flex;
+justify-content: flex-end;
+}
+.portrait-image{
+background-color: white;
+border-radius: 20px;
+width: 100%;
+max-width: 200px;
+height: auto;
+margin: 30px;
+}
+@media  (max-width: 620px) {
+.portrait-image{
+    max-width:150px
+}
+.img-portrait{
+    width: 60%;
+}
+.intro-welcome{
+    width: 40%;
+}
+
+
+}
+.intro-welcome{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+#root > section.intro-container > div.intro-welcome > p{
+width: 100px;
+color: #EFE2BA;
+}
