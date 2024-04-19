@@ -11,10 +11,10 @@ export default function HeaderAnimated({ content }) {
         <animated.h1
         style={{
             ...springs,
-            fontSize: '32px',
+            fontSize: '3em',
             textAlign: 'center',
-            marginTop: 25,
-            marginBottom:30,
+            marginTop: 40,
+            marginBottom:40,
         }}
         className="animated-header"
         >

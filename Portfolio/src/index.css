@@ -6,6 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+p{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -20,7 +23,10 @@ body {
 div.skills-container {
   display: flex;
 justify-content: center;
+
 }
+
+
 small {
   font-size: 12px;
   color: rgba(0, 0, 0, 0.4);
@@ -55,7 +61,7 @@ section {
   height: 25vh;
 }
 #root{
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   border-radius: 10px;
   background: #fff;
@@ -63,7 +69,9 @@ section {
   -10px 0 15px -5px #C5CBE3; /* Right Shadow */
   background-color: #EFE2BA ;
 }
-
+.animated-header{
+  font-size: 3em;
+}
 @media  (max-width: 620px) {
   .animated-header{
     margin-top: 80px;
@@ -87,4 +95,5 @@ section {
     font-weight: 800;
     letter-spacing: -0.05em;
     margin-right: 10%;
+    font-family: 'Roboto', sans-serif;;
   }

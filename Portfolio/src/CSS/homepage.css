@@ -8,22 +8,38 @@ div .intro-part-one{
   }
   div .intro-part-one p{
     width: 350px;
-    padding-right: 100px;
+    padding-right: 150px;
     font-weight: 1.8rem;
     margin-bottom: 30px;
   }
   div .intro-part-two{
-    height: 300px;
+    height: 500px;
     color:#EFE2BA;
     display:flex;
-    justify-content: center;
+    justify-content: flex-start;
     border-radius: 0 0 120px 120px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    
   }
   div .intro-part-two p {
-    width: 45%;
-    font-weight: 1.8rem;
+    width: 55%;
+    font-size: 1.2rem;
     margin-bottom: 50px;
   }
+  div .intro-part-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 55px;
+    font-size: 1.2rem;
+    color: #D79922;
+  }
+  div .intro-part-three p{
+    width: 55% ;
+  }
+
   #root > div.dark-border{
     display: flex;
     justify-content: space-between;
@@ -54,6 +70,14 @@ div .dark-fill{
 @media  (max-width: 768px){
     div .intro-part-one p{
         padding: 0;
-        padding-left: 20px;
+        padding-left: 10px;
+    }
+    div .intro-part-two{
+        height: 750px;
+    }
+}
+@media  (max-width: 968px){
+    div .intro-part-two{
+        height: 750px;
     }
 }

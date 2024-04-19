@@ -26,16 +26,18 @@ return (
       <p> Throughout my university journey, I'm excited to explore additional languages like C++ and Python, along with various frameworks. In my free time, I actively enhance my understanding of frameworks like React.js through hands-on projects. I'm also delving into Rust, expanding my horizons beyond web development.
         While I've primarily focused on front-end development, I'm eager to deepen my knowledge and skills before venturing into back-end development.
         </p>
-        </div>
-
         <p> In Computer Science, my interests span web development, AI, and Cybersecurity. The vast scope of these technologies intrigues me, as they continually evolve with new advancements. I consider myself curious and open-minded, always seeking opportunities to learn and grow.
 
-  I don't strive for perfection because I believe it's impossible to attain and subjective. Instead, I prioritize improvement, embracing challenges and setbacks as opportunities for growth. Whether it's refining the projects I work on, honing my skills, or collaborating within a team, my goal is constant progress.
-        </p>
+I don't strive for perfection because I believe it's impossible to attain and subjective. Instead, I prioritize improvement, embracing challenges and setbacks as opportunities for growth. Whether it's refining the projects I work on, honing my skills, or collaborating within a team, my goal is constant progress.
+      </p>
+        </div>
+
+      <div className="intro-part-three"> 
         <p>
         My ultimate goal is to establish a career in web development, driven by my fascination with the ongoing digital transformation of platforms and technologies. I'm drawn to the field's dynamic nature, where innovation and creativity converge to shape the future of online experiences.
         </p>
         <p>If you'd like to get in touch with me, please refer to my social-media links below or visit the  contact page.</p>
+        </div>
   </>
 );
 }

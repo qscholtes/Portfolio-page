@@ -1,5 +1,5 @@
 .intro-container{
-    height: 30%;
+    height: 40%;
     display:flex;
     background-color: #D79922 ;
     border-radius: 120px 120px 0 0;
@@ -18,7 +18,7 @@ border-radius: 20px;
 width: 100%;
 max-width: 200px;
 height: auto;
-margin: 30px;
+margin: 50px;
 }
 @media  (max-width: 768px) {
 .portrait-image{
