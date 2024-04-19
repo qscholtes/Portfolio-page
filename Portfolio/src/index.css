@@ -67,3 +67,9 @@ section {
 p{
   color: #D79922;;
 }
+@media  (max-width: 620px) {
+  .animated-header{
+    margin-top: 80px;
+
+  }
+  }

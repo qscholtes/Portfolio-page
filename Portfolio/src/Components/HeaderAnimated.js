@@ -9,18 +9,16 @@ export default function HeaderAnimated({ content }) {
 
     return (
         <animated.h1
-            style={{
-                ...springs,
-                fontSize: '32px',
-                textAlign: 'center',
-                marginBottom: 30,
-                // Apply marginTop only when the maximum width is 768px
-                '@media (max-width: 768px)': {
-                    marginTop: 80,
-                },
-            }}
+        style={{
+            ...springs,
+            fontSize: '32px',
+            textAlign: 'center',
+            marginTop: 25,
+            marginBottom:30,
+        }}
+        className="animated-header"
         >
-            {content}
+        {content}
         </animated.h1>
     );
-}
+    }

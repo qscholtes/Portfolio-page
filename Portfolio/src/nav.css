@@ -2,6 +2,9 @@
 
 
     /* NAVIGATION */
+    section.nav-area{
+        height: 35%;
+    }
     nav {
         width: 80%;
         margin: 0 auto;
@@ -11,6 +14,7 @@
         box-shadow: 0px 5px 5px #D79922;
         background-color: #EFE2BA ;
         border-radius: 10px;
+        overflow: auto;
     }
     nav ul {
         list-style: none;

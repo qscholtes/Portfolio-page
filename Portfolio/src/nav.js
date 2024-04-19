@@ -4,7 +4,7 @@ import "./nav.css";
 
 function NavBar() {
     return (
-        <section>
+        <section className="nav-area">
             <nav className="fill">
                 <ul>
                     <li><Link to="/">Home</Link></li> {/* Use Link component instead of anchor tag */}
