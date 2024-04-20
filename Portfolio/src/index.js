@@ -9,7 +9,7 @@ import { BrowserRouter } from "react-router-dom";
 
 const root = createRoot(document.getElementById('root')); // Use createRoot instead of ReactDOM.createRoot
 root.render(
-  <BrowserRouter> 
+  <BrowserRouter > 
     <React.StrictMode>
       <NavBar />
       <App />
