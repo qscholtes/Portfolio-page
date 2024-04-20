@@ -1,0 +1,74 @@
+li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+div .socials{
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    font-size: 1.8em ;
+    margin-top: 5px;
+    color:#EFE2BA ;
+
+    margin-left: 150px;
+}
+
+div .socialist{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    letter-spacing: -0.05em;
+}
+@media  (max-width: 768px){
+    .socials{
+        margin-left: 85px;
+    }
+    .canvas-container{
+        width: 25%;
+    }
+}
+#root > section.intro-container > div.socials > ul > li{
+    transition: transform 0.3s ease;
+    list-style: none;
+}
+#root > section.intro-container > div.socials > ul > li:hover{
+    transform: scale(1.1) translateX(1em);
+}
+
+#root > section.intro-container > div.socials > ul > li > a{
+    text-decoration: none;
+    color: #EFE2BA;
+}
+.intro-container .socialist li a {
+    position: relative;
+    color: #D79922; /* Initial color */
+    text-decoration: none; /* Remove default underline */
+    
+}
+
+.intro-container .socialist li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background:#EFE2BA; /* Color of the underline */
+    height: 4px;
+    transition: all 1s; /* Transition effect */
+    
+}
+
+.intro-container .socialist li a:hover {
+    color: #555; /* Color change on hover */
+
+}
+
+.intro-container .socialist li a:hover:after {
+    width: 100%; /* Underline fills on hover */
+    background: #D79922; /* Color change on hover */
+    
+}

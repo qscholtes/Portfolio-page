@@ -47,3 +47,15 @@ color: #EFE2BA;
 font-size: 1.5em;
 font-weight: 700;
 }
+@media  (max-width: 400px){
+    .img-portrait{
+        margin-right: 0px;
+        height: 300px;
+        margin-left: 20px;
+    }
+    .intro-welcome{
+       width: 30%;
+       font-size: 0.8em;
+       margin-left: -20px;
+    }
+}

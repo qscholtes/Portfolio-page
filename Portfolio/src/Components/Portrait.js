@@ -1,10 +1,12 @@
 import React from 'react';
 import portrait from '../assets/portraitjpg-removebg-preview.png';
 import '../CSS/Portrait.css'
+import BouncingBall from './Bounce';
 
 function Portrait() {
   return (
     <section className="intro-container">
+      
       <div className="img-portrait">
         <img src={portrait} alt="portrait of Quinten" className='portrait-image' />
       </div>

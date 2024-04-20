@@ -5,11 +5,12 @@ div .intro-part-one{
     border-radius: 0 0 -120px -120px;
     display: flex;
     justify-content: center;
+    height: 25%;
   }
   div .intro-part-one p{
     width: 350px;
     padding-right: 150px;
-    font-weight: 1.8rem;
+    font-size: 1.2rem;
     margin-bottom: 30px;
   }
   div .intro-part-two{
@@ -80,4 +81,23 @@ div .dark-fill{
     div .intro-part-two{
         height: 750px;
     }
+}
+@media  (max-width: 690px){
+  div .intro-part-two{
+    height: 950px;
+}
+}
+@media  (max-width: 520px){
+  div .intro-part-two{
+    height: 980px;
+  }
+}
+@media  (max-width: 400px){
+  div .intro-part-one p{
+    font-size: 1em;
+    width: 65%;
+  }
+  div .intro-part-two{
+    height: 1400px;
+  }
 }
