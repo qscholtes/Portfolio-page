@@ -7,6 +7,7 @@ import "../CSS/UserPage.css"
 const introContainerStyle={
   borderRadius: "120px 120px 120px 120px",
   marginBottom: "40px",
+  minHeight: "600px"
 }
 export default function UserPage() { // 
   return (

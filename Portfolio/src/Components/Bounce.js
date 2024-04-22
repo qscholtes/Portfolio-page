@@ -7,7 +7,9 @@ let radius=15;
 let vx=1.5;
 let vy=1.5;
 let move;
-
+const canvasstyle={
+    minHeight: "600px"
+  }
 
 function BouncingBall(){
     let canvasRef=useRef(null);
@@ -37,10 +39,11 @@ function BouncingBall(){
 
     });
     return (
-    <div className='canvas-container'>
+    <div className='canvas-container' style={canvasstyle}>
         <canvas className='canvas' ref={canvasRef}
         width={window.innerWidth/2}
         height={window.innerHeight/2}
+        
         >
         </canvas>
     </div>

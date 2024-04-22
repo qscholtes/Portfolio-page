@@ -11,7 +11,6 @@ function NavBar() {
                     <li><Link to="/about">Contact</Link></li> {/* Use Link component instead of anchor tag */}
                     {/* <li><Link to="/resume">Resume</Link></li> Use Link component instead of anchor tag */}
                 </ul>
-
             </nav>
         </section>
     );
