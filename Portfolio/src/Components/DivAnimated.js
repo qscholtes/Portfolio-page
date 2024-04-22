@@ -20,7 +20,7 @@ export default function ContentAnimated({ content }) {
     }, [inView]);
 
     return (
-        <animated.p
+        <animated.div
             ref={ref}
             style={{
                 ...springs,
@@ -28,6 +28,6 @@ export default function ContentAnimated({ content }) {
             className="animated-content"
         >
             {content}
-        </animated.p>
+        </animated.div>
     );
 }

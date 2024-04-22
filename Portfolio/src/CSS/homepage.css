@@ -11,7 +11,9 @@ div .intro-part-one{
     width: 350px;
     padding-right: 150px;
     font-size: 1.2rem;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    margin-left: 45px;
+    margin-top: -15px;
   }
   div .intro-part-two{
     height: 500px;
@@ -38,7 +40,7 @@ div .intro-part-one{
     color: #D79922;
   }
   div .intro-part-three p{
-    width: 55% ;
+    width: 61% ;
   }
 
   #root > div.dark-border{

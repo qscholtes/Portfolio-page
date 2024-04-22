@@ -20,7 +20,7 @@ function BouncingBall(){
             context.clearRect(0,0,canvasRef.current.width, canvasRef.current.height)
             context.beginPath();
             context.arc(x,y,radius,0,2*Math.PI)
-            context.fillStyle='#EFE2BA '
+            context.fillStyle='#D79922 '
             context.fill();
             x+=vx;
             y+=vy
